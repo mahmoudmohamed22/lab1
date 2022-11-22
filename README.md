@@ -3,19 +3,24 @@
 
 // delete branch locally
 
-git branch -d localBranchName
+$ git branch -d localBranchName
 
 // delete branch remotely
 
-git push origin --delete remoteBranchName
+$ git push origin --delete remoteBranchName
 
 //to remove locally tag 
 
-git tag -d <tag_name>
+$ git tag -d <tag_name>
 
 //to remove remotelly tag
 
 $ git push --delete origin tagname
+
+//to Tag the commit with this command
+
+$ git tag -a M1 e3afd034 -m "Tag Message"
+
 
 
 
